@@ -1,4 +1,4 @@
-# Enhancing configurational sampling in alchemical free energy calculations using alchemical metadynamics
+# Alchemical Metadynamics: Adding Alchemical Variables to Metadynamics to Enhance Sampling in Free Energy Calculations
 
 This tutorial will guide you through the process of setting up, performing, and analyzing an alchemical metadynamics simulation using GROMACS with a PLUMED patch.
 
@@ -8,9 +8,11 @@ Below we show the resources you need to fully understand the tutorial, as well a
 flowchart LR;
 
   A[JCTC paper] ==> B[Notebook]
+  C[Supplementary material] -.-> B
 
   click A "JCTC paper" "The paper published in Journal of Chemical Theory and Computation (JCTC) that proposed the method of alchemical metadynamics";
   click B "tutorial.ipynb" "A tutorial on alchemical metadynamics written in Jupyter Notebook."; 
+  click C "Supplementary material" "Additional materials introducing alchemical intermediate states if case you are not familiar with them.";
 ```
 
 If you use alchemical metadynamics in your research, please cite the following paper:
